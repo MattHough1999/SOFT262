@@ -17,5 +17,23 @@ namespace Soft262Coursework
         {
             InitializeComponent();
         }
+
+        private void Next_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Revision());
+        }
+
+        private void Import_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Reset_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        
+        
     }
 }

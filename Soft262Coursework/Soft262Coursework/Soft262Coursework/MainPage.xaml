@@ -4,13 +4,29 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Soft262Coursework.MainPage">
+             x:Class="Soft262Coursework.MainPage"
+             BackgroundColor="LightGray"
+             Title="Home">
+            
 
-    <StackLayout>
+    <Grid >
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            
+        </Grid.ColumnDefinitions>
+
+        <Button Text="Revise" x:Name="Next" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Clicked="Next_Clicked"/>
+        <Button Text="Import" x:Name="Import" Grid.Row="1" Grid.Column="0" Clicked="Import_Clicked"/>
+        <Button Text="Reset"  x:Name="Reset" Grid.Row="1" Grid.Column="1" Clicked="Reset_Clicked"/>
+        
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+        
+    </Grid>
 
 </ContentPage>
