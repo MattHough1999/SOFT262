@@ -13,6 +13,8 @@ namespace Soft262Coursework
             MainPage = new NavigationPage(new MainPage());
         }
 
+        public Array PublicArray;
+
         protected override void OnStart()
         {
         }

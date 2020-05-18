@@ -20,6 +20,7 @@ namespace Soft262Coursework
                 await DisplayAlert("Tapped", e.Item + " row was tapped", "OK");
                 ((ListView)sender).SelectedItem = null; 
             };
+            
         }
     }
 }

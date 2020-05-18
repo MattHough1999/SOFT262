@@ -7,9 +7,9 @@
              x:Class="Soft262Coursework.Revision">
     <ContentPage.Content>
         <ListView x:Name="listView">
-            <ListView.ItemsSource>
+            <!--<ListView.ItemsSource>
                 
-                    <x:Array Type="{x:Type x:String}">
+                <x:Array Type="{x:Type x:String}">
                     <x:String>mono</x:String>
                     <x:String>monodroid</x:String>
                     <x:String>monotouch</x:String>
@@ -20,7 +20,7 @@
                     <x:String>monomodal</x:String>
                     <x:String>mononucleosis</x:String>
                 </x:Array>
-            </ListView.ItemsSource>
+            </ListView.ItemsSource>-->
         </ListView>
     </ContentPage.Content>
 </ContentPage>
