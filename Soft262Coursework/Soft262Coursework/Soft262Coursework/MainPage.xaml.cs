@@ -13,9 +13,10 @@ namespace Soft262Coursework
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        public MainPage(ListModel vm = null)
         {
             InitializeComponent();
+            BindingContext = vm ?? new ListModel();
         }
 
         private void Next_Clicked(object sender, EventArgs e)

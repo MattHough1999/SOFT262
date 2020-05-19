@@ -7,9 +7,12 @@
              x:Class="Soft262Coursework.MainPage"
              BackgroundColor="LightGray"
              Title="Home">
-            
 
-    <Grid >
+    <Label Text= "{Binding Title}"/>
+    
+    <Label Text= "{Binding Description}"/>
+    
+    <!--<Grid >
         <Grid.RowDefinitions>
             
             <RowDefinition Height="*"/>
@@ -25,8 +28,8 @@
         <Button Text="Import" x:Name="Import" Grid.Row="1" Grid.Column="0" Clicked="Import_Clicked"/>
         <Button Text="Reset"  x:Name="Reset" Grid.Row="1" Grid.Column="1" Clicked="Reset_Clicked"/>
         
-        <!-- Place new controls here -->
+        --><!-- Place new controls here --><!--
         
-    </Grid>
+    </Grid>-->
 
 </ContentPage>
