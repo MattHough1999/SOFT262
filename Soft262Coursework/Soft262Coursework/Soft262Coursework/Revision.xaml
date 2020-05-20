@@ -7,20 +7,20 @@
              x:Class="Soft262Coursework.Revision">
     <ContentPage.Content>
         <ListView x:Name="listView">
-            <!--<ListView.ItemsSource>
+            <ListView.ItemsSource>
                 
                 <x:Array Type="{x:Type x:String}">
-                    <x:String>mono</x:String>
-                    <x:String>monodroid</x:String>
-                    <x:String>monotouch</x:String>
-                    <x:String>monorail</x:String>
-                    <x:String>monodevelop</x:String>
-                    <x:String>monotone</x:String>
-                    <x:String>monopoly</x:String>
-                    <x:String>monomodal</x:String>
-                    <x:String>mononucleosis</x:String>
+                    <x:String>Input device</x:String>
+                    <x:String>Output device</x:String>
+                    <x:String>Motherboard</x:String>
+                    <x:String>Storage device</x:String>
+                    <x:String>Hard drive</x:String>
+                    <x:String>RAM</x:String>
+                    <x:String>Hardware</x:String>
+                    <x:String>Software</x:String>
+                    <x:String>CPU</x:String>
                 </x:Array>
-            </ListView.ItemsSource>-->
+            </ListView.ItemsSource>
         </ListView>
     </ContentPage.Content>
 </ContentPage>
